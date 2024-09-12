@@ -3,7 +3,7 @@
 This project demonstrates how to apply various **window functions** using **PySpark** on a sample dataset. It covers functions such as `row_number`, `rank`, `dense_rank`, `ntile`, `lag`, `lead`, `cume_dist`, and `percent_rank`, applied to a DataFrame of employees, their departments, and salaries.
 
 ## Project Structure:
-- **window_functions_example.py**: The main script containing PySpark code to showcase window functions.
+- **win_function**: The main script containing PySpark code to showcase window functions.
 - **README.md**: This documentation file.
 
 ## Description:
@@ -57,7 +57,7 @@ dense_rank().over(window_spec).alias("dense_rank")
    - Alternatively, this project can be run on **Databricks** for ease of setup.
 
 2. **Run the Script**:
-   - Place the `window_functions_example.py` file in your environment or Databricks workspace.
+   - Place the `win_function` file in your environment or Databricks workspace.
    - Execute the script in a PySpark-enabled environment.
 
 3. **Output**:
